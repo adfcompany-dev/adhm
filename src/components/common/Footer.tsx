@@ -18,9 +18,7 @@ export default function Footer() {
                     <div>
                         <h6 className="font-bold mb-4 text-gray-300">Contact</h6>
                         <ul className="space-y-2 text-gray-400 text-sm">
-                            <li>010-8903-8833</li>
-                            <li>카카오톡 채널: 에이디에프</li>
-                            <li>서울시 중랑구 묵동 246-13</li>
+                            <li>서울시 중랑구 묵동 246-13 (먹골역 도보 5분)</li>
                         </ul>
                     </div>
 

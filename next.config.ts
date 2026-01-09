@@ -6,6 +6,7 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true, // Required for static export (GitHub Pages) unless using a custom loader
   },
+  transpilePackages: ['lucide-react', 'swiper'],
 };
 
 export default nextConfig;

@@ -16,9 +16,9 @@ export default function Lifestyle() {
                     <p className="text-gray-600">입주민만을 위한 특별한 혜택과 프리미엄 옵션</p>
                 </div>
 
-                <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 mb-16">
-                    {/* Cafe Visual - Spans 3 cols */}
-                    <div className="lg:col-span-3 h-[400px] rounded-2xl overflow-hidden shadow-lg relative bg-white">
+                <div className="mb-16">
+                    {/* Cafe Visual - Full Width */}
+                    <div className="h-[400px] md:h-[500px] rounded-2xl overflow-hidden shadow-lg relative bg-white">
                         <Swiper
                             modules={[Autoplay, EffectFade]}
                             effect="fade"
@@ -34,34 +34,10 @@ export default function Lifestyle() {
                                 </SwiperSlide>
                             ))}
                         </Swiper>
-                        <div className="absolute bottom-6 left-6 bg-white/90 backdrop-blur px-5 py-3 rounded-lg z-10 max-w-sm">
-                            <h3 className="font-bold text-lg text-[#2F3630] mb-1">Cafe Lounge: Allday Financier</h3>
-                            <p className="text-sm text-gray-600">1층 감성 카페에서 즐기는 매일의 여유</p>
+                        <div className="absolute bottom-6 left-6 bg-white/90 backdrop-blur px-8 py-4 rounded-xl z-10">
+                            <h3 className="font-bold text-xl text-[#2F3630] mb-1">Cafe Lounge: Allday Financier</h3>
+                            <p className="text-gray-600">입주민을 위한 1층 감성 카페 & 라운지</p>
                         </div>
-                    </div>
-
-                    {/* Benefits List - Spans 2 cols */}
-                    <div className="lg:col-span-2 flex flex-col justify-center bg-white p-8 rounded-2xl shadow-lg">
-                        <h3 className="text-xl font-bold mb-6 flex items-center gap-2">
-                            <Coffee size={24} className="text-[#4A5D4F]" />
-                            Resident Benefits
-                        </h3>
-                        <ul className="space-y-4">
-                            <li className="flex items-start gap-3 p-3 bg-gray-50 rounded-lg">
-                                <span className="text-2xl">☕️</span>
-                                <div>
-                                    <strong className="block text-gray-800">1일 1잔 무료 커피</strong>
-                                    <span className="text-sm text-gray-500">입주민 전용 멤버십 혜택 제공</span>
-                                </div>
-                            </li>
-                            <li className="flex items-start gap-3 p-3 bg-gray-50 rounded-lg">
-                                <span className="text-2xl">🏷️</span>
-                                <div>
-                                    <strong className="block text-gray-800">상시 할인 혜택</strong>
-                                    <span className="text-sm text-gray-500">모든 메뉴 입주민 특별가 적용</span>
-                                </div>
-                            </li>
-                        </ul>
                     </div>
                 </div>
 
